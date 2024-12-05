@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_cards_news_cards",
+  "info": {
+    "displayName": "NewsCards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string",
+      "minLength": 5,
+      "required": true
+    },
+    "Fecha": {
+      "type": "date",
+      "required": true,
+      "default": "2024-11-28"
+    },
+    "NombreAutor": {
+      "type": "string",
+      "required": true,
+      "minLength": 5
+    },
+    "ImagenAutor": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Descripcion": {
+      "type": "text",
+      "required": true,
+      "minLength": 5
+    },
+    "Categoria": {
+      "type": "string",
+      "required": true,
+      "minLength": 3
+    },
+    "Imagen": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

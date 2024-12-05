@@ -1,0 +1,74 @@
+{
+  "collectionName": "components_cards_card1s",
+  "info": {
+    "displayName": "Card1",
+    "icon": "star",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string",
+      "required": true,
+      "minLength": 5
+    },
+    "Monto": {
+      "type": "biginteger",
+      "required": true,
+      "min": "01"
+    },
+    "Descripcion": {
+      "type": "text",
+      "required": true,
+      "minLength": 5
+    },
+    "imagen": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Categoria": {
+      "type": "string",
+      "minLength": 3,
+      "default": "Oportunidad",
+      "required": true
+    },
+    "Autor": {
+      "type": "string",
+      "default": "Cruz del Sur",
+      "minLength": 5
+    },
+    "AutorImagen": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Camas": {
+      "type": "integer",
+      "required": true,
+      "min": 1
+    },
+    "Lavabo": {
+      "type": "integer",
+      "required": true,
+      "min": 1
+    },
+    "Whatsapp": {
+      "type": "string",
+      "required": false,
+      "minLength": 5,
+      "default": "https://wa.me/+59897078211?text=Hola..."
+    },
+    "Metros": {
+      "type": "integer",
+      "required": true,
+      "min": 5
+    }
+  }
+}

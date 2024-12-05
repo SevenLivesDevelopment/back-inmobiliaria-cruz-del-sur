@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_cards",
+  "info": {
+    "singularName": "news-card",
+    "pluralName": "news-cards",
+    "displayName": "NewsCards",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "NewsCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.news-cards",
+      "required": true
+    }
+  }
+}

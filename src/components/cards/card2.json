@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_cards_card2s",
+  "info": {
+    "displayName": "Card2",
+    "icon": "question",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string",
+      "required": true
+    },
+    "Monto": {
+      "type": "biginteger",
+      "required": true
+    },
+    "Descripcion": {
+      "type": "text",
+      "required": true
+    },
+    "Tipo": {
+      "type": "string",
+      "required": true,
+      "minLength": 4
+    },
+    "imagen": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "Dormitorios": {
+      "type": "integer",
+      "required": true,
+      "min": 1
+    },
+    "Lavabos": {
+      "type": "integer",
+      "required": true,
+      "min": 1
+    },
+    "Metros": {
+      "type": "integer",
+      "required": true,
+      "min": 1
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "property_card2s",
+  "info": {
+    "singularName": "property-card2",
+    "pluralName": "property-card2s",
+    "displayName": "PropertyCard2",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "PropertyCard2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.card2",
+      "required": true
+    }
+  }
+}

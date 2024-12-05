@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "hero_images",
+  "info": {
+    "singularName": "hero-image",
+    "pluralName": "hero-images",
+    "displayName": "HeroImage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
