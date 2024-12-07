@@ -3,6 +3,13 @@ module.exports = [
   'strapi::errors',
   'strapi::security',
   'strapi::cors',
+  {
+    name: 'strapi::cors',
+    config: {
+      enabled: true,
+      origin: ['*'], // Cambia '*' por los dominios permitidos para mayor seguridad
+    },
+  },
   'strapi::poweredBy',
   'strapi::query',
   'strapi::body',
