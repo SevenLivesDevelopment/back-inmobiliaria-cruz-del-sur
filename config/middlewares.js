@@ -33,7 +33,12 @@ module.exports = [
     name: 'strapi::cors',
     config: {
       enabled: true,
-      origin: ['*'], // Cambia '*' por tus dominios específicos para mayor seguridad
+      origin: [
+        'https://inmobiliariacruzdelsur.netlify.app', // Dominio de tu frontend
+        'https://back-inmobiliaria-cruz-del-sur.onrender.com', // Dominio de tu backend
+      ],
+      methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'HEAD'],
+      headers: ['Content-Type', 'Authorization'],
     },
   },
   'strapi::poweredBy',
