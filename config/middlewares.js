@@ -35,7 +35,7 @@ module.exports = [
       enabled: true,
       origin: [
         'https://inmobiliariacruzdelsur.netlify.app', // Dominio de tu frontend
-        'https://cdelsur.com/', // Dominio de tu frontend producción
+        'https://cdelsur.com', // Dominio de tu frontend producción
         'https://back-inmobiliaria-cruz-del-sur.onrender.com', // Dominio de tu backend
       ],
       methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'HEAD'],
